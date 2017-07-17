@@ -647,7 +647,7 @@ var sortable = function (sortableElements, options) {
           oldStartList: startList
         }))
       }
-      dragging = null
+      dragging = null 
       draggingHeight = null
     })
     // Handle drop event on sortable & placeholder
@@ -755,3 +755,5 @@ sortable.disable = function (sortableElement) {
 
 return sortable;
 }));
+
+// testing
